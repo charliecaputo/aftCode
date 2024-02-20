@@ -20,6 +20,7 @@ def counter(ENC_A):
 	make a sensor reading function that 
 	returns 0 if not blocked and 1 if blocked
 	"""
+    #make count glibal
     global count
     if GPIO.input(ENC_B):
         count = 0
