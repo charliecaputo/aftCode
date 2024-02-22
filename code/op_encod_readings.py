@@ -1,7 +1,7 @@
 import RPi.GPIO as GPIO
 import time
 
-ENC_A = 13 ##emits light pin 13
+ENC_A = 13 ## emits light pin 13
 ENC_B = 11 ## recieves light pin 11
 
 GPIO.setmode(GPIO.BOARD)
